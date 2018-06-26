@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55E2E24F20D9756800FA6F40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E2E24E20D9756800FA6F40 /* AppDelegate.swift */; };
+		55E2E25120D9756900FA6F40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E2E25020D9756800FA6F40 /* ViewController.swift */; };
+		55E2E25420D9756900FA6F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E2E25220D9756900FA6F40 /* Main.storyboard */; };
+		55E2E25620D9756900FA6F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E2E25520D9756900FA6F40 /* Assets.xcassets */; };
+		55E2E25920D9756900FA6F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E2E25720D9756900FA6F40 /* LaunchScreen.storyboard */; };
+		55E2E26420D9756900FA6F40 /* MisRecetasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E2E26320D9756900FA6F40 /* MisRecetasTests.swift */; };
+		55E2E26F20D9756900FA6F40 /* MisRecetasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E2E26E20D9756900FA6F40 /* MisRecetasUITests.swift */; };
+		55E2E27D20D9789800FA6F40 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E2E27C20D9789800FA6F40 /* Recipe.swift */; };
+		55E2E27F20DA75D200FA6F40 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E2E27E20DA75D200FA6F40 /* RecipeCell.swift */; };
+		55E2E28120DD168100FA6F40 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E2E28020DD168100FA6F40 /* DetailViewController.swift */; };
+		55E2E28320E1182300FA6F40 /* ReviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E2E28220E1182300FA6F40 /* ReviewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55E2E26020D9756900FA6F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E2E24320D9756800FA6F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E2E24A20D9756800FA6F40;
+			remoteInfo = MisRecetas;
+		};
+		55E2E26B20D9756900FA6F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E2E24320D9756800FA6F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E2E24A20D9756800FA6F40;
+			remoteInfo = MisRecetas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55E2E24B20D9756800FA6F40 /* MisRecetas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MisRecetas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E2E24E20D9756800FA6F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55E2E25020D9756800FA6F40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55E2E25320D9756900FA6F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55E2E25520D9756900FA6F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55E2E25820D9756900FA6F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55E2E25A20D9756900FA6F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E2E25F20D9756900FA6F40 /* MisRecetasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MisRecetasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E2E26320D9756900FA6F40 /* MisRecetasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisRecetasTests.swift; sourceTree = "<group>"; };
+		55E2E26520D9756900FA6F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E2E26A20D9756900FA6F40 /* MisRecetasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MisRecetasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E2E26E20D9756900FA6F40 /* MisRecetasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisRecetasUITests.swift; sourceTree = "<group>"; };
+		55E2E27020D9756900FA6F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E2E27C20D9789800FA6F40 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		55E2E27E20DA75D200FA6F40 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		55E2E28020DD168100FA6F40 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		55E2E28220E1182300FA6F40 /* ReviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E2E24820D9756800FA6F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E2E25C20D9756900FA6F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E2E26720D9756900FA6F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E2E24220D9756800FA6F40 = {
+			isa = PBXGroup;
+			children = (
+				55E2E24D20D9756800FA6F40 /* MisRecetas */,
+				55E2E26220D9756900FA6F40 /* MisRecetasTests */,
+				55E2E26D20D9756900FA6F40 /* MisRecetasUITests */,
+				55E2E24C20D9756800FA6F40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55E2E24C20D9756800FA6F40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E2E24B20D9756800FA6F40 /* MisRecetas.app */,
+				55E2E25F20D9756900FA6F40 /* MisRecetasTests.xctest */,
+				55E2E26A20D9756900FA6F40 /* MisRecetasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E2E24D20D9756800FA6F40 /* MisRecetas */ = {
+			isa = PBXGroup;
+			children = (
+				55E2E24E20D9756800FA6F40 /* AppDelegate.swift */,
+				55E2E25020D9756800FA6F40 /* ViewController.swift */,
+				55E2E27E20DA75D200FA6F40 /* RecipeCell.swift */,
+				55E2E25220D9756900FA6F40 /* Main.storyboard */,
+				55E2E28220E1182300FA6F40 /* ReviewController.swift */,
+				55E2E28020DD168100FA6F40 /* DetailViewController.swift */,
+				55E2E27C20D9789800FA6F40 /* Recipe.swift */,
+				55E2E25520D9756900FA6F40 /* Assets.xcassets */,
+				55E2E25720D9756900FA6F40 /* LaunchScreen.storyboard */,
+				55E2E25A20D9756900FA6F40 /* Info.plist */,
+			);
+			path = MisRecetas;
+			sourceTree = "<group>";
+		};
+		55E2E26220D9756900FA6F40 /* MisRecetasTests */ = {
+			isa = PBXGroup;
+			children = (
+				55E2E26320D9756900FA6F40 /* MisRecetasTests.swift */,
+				55E2E26520D9756900FA6F40 /* Info.plist */,
+			);
+			path = MisRecetasTests;
+			sourceTree = "<group>";
+		};
+		55E2E26D20D9756900FA6F40 /* MisRecetasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55E2E26E20D9756900FA6F40 /* MisRecetasUITests.swift */,
+				55E2E27020D9756900FA6F40 /* Info.plist */,
+			);
+			path = MisRecetasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E2E24A20D9756800FA6F40 /* MisRecetas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E2E27320D9756900FA6F40 /* Build configuration list for PBXNativeTarget "MisRecetas" */;
+			buildPhases = (
+				55E2E24720D9756800FA6F40 /* Sources */,
+				55E2E24820D9756800FA6F40 /* Frameworks */,
+				55E2E24920D9756800FA6F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MisRecetas;
+			productName = MisRecetas;
+			productReference = 55E2E24B20D9756800FA6F40 /* MisRecetas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55E2E25E20D9756900FA6F40 /* MisRecetasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E2E27620D9756900FA6F40 /* Build configuration list for PBXNativeTarget "MisRecetasTests" */;
+			buildPhases = (
+				55E2E25B20D9756900FA6F40 /* Sources */,
+				55E2E25C20D9756900FA6F40 /* Frameworks */,
+				55E2E25D20D9756900FA6F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E2E26120D9756900FA6F40 /* PBXTargetDependency */,
+			);
+			name = MisRecetasTests;
+			productName = MisRecetasTests;
+			productReference = 55E2E25F20D9756900FA6F40 /* MisRecetasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55E2E26920D9756900FA6F40 /* MisRecetasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E2E27920D9756900FA6F40 /* Build configuration list for PBXNativeTarget "MisRecetasUITests" */;
+			buildPhases = (
+				55E2E26620D9756900FA6F40 /* Sources */,
+				55E2E26720D9756900FA6F40 /* Frameworks */,
+				55E2E26820D9756900FA6F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E2E26C20D9756900FA6F40 /* PBXTargetDependency */,
+			);
+			name = MisRecetasUITests;
+			productName = MisRecetasUITests;
+			productReference = 55E2E26A20D9756900FA6F40 /* MisRecetasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E2E24320D9756800FA6F40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Alejandro Ruiz Ponce";
+				TargetAttributes = {
+					55E2E24A20D9756800FA6F40 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					55E2E25E20D9756900FA6F40 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55E2E24A20D9756800FA6F40;
+					};
+					55E2E26920D9756900FA6F40 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55E2E24A20D9756800FA6F40;
+					};
+				};
+			};
+			buildConfigurationList = 55E2E24620D9756800FA6F40 /* Build configuration list for PBXProject "MisRecetas" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55E2E24220D9756800FA6F40;
+			productRefGroup = 55E2E24C20D9756800FA6F40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E2E24A20D9756800FA6F40 /* MisRecetas */,
+				55E2E25E20D9756900FA6F40 /* MisRecetasTests */,
+				55E2E26920D9756900FA6F40 /* MisRecetasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E2E24920D9756800FA6F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E2E25920D9756900FA6F40 /* LaunchScreen.storyboard in Resources */,
+				55E2E25620D9756900FA6F40 /* Assets.xcassets in Resources */,
+				55E2E25420D9756900FA6F40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E2E25D20D9756900FA6F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E2E26820D9756900FA6F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E2E24720D9756800FA6F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E2E27D20D9789800FA6F40 /* Recipe.swift in Sources */,
+				55E2E28320E1182300FA6F40 /* ReviewController.swift in Sources */,
+				55E2E25120D9756900FA6F40 /* ViewController.swift in Sources */,
+				55E2E28120DD168100FA6F40 /* DetailViewController.swift in Sources */,
+				55E2E24F20D9756800FA6F40 /* AppDelegate.swift in Sources */,
+				55E2E27F20DA75D200FA6F40 /* RecipeCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E2E25B20D9756900FA6F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E2E26420D9756900FA6F40 /* MisRecetasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E2E26620D9756900FA6F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E2E26F20D9756900FA6F40 /* MisRecetasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55E2E26120D9756900FA6F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E2E24A20D9756800FA6F40 /* MisRecetas */;
+			targetProxy = 55E2E26020D9756900FA6F40 /* PBXContainerItemProxy */;
+		};
+		55E2E26C20D9756900FA6F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E2E24A20D9756800FA6F40 /* MisRecetas */;
+			targetProxy = 55E2E26B20D9756900FA6F40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55E2E25220D9756900FA6F40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E2E25320D9756900FA6F40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55E2E25720D9756900FA6F40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E2E25820D9756900FA6F40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55E2E27120D9756900FA6F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55E2E27220D9756900FA6F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55E2E27420D9756900FA6F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MisRecetas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alejandroruizponce.MisRecetas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55E2E27520D9756900FA6F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MisRecetas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alejandroruizponce.MisRecetas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55E2E27720D9756900FA6F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MisRecetasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alejandroruizponce.MisRecetasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MisRecetas.app/MisRecetas";
+			};
+			name = Debug;
+		};
+		55E2E27820D9756900FA6F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MisRecetasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alejandroruizponce.MisRecetasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MisRecetas.app/MisRecetas";
+			};
+			name = Release;
+		};
+		55E2E27A20D9756900FA6F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MisRecetasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alejandroruizponce.MisRecetasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MisRecetas;
+			};
+			name = Debug;
+		};
+		55E2E27B20D9756900FA6F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MisRecetasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alejandroruizponce.MisRecetasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MisRecetas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E2E24620D9756800FA6F40 /* Build configuration list for PBXProject "MisRecetas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E2E27120D9756900FA6F40 /* Debug */,
+				55E2E27220D9756900FA6F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E2E27320D9756900FA6F40 /* Build configuration list for PBXNativeTarget "MisRecetas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E2E27420D9756900FA6F40 /* Debug */,
+				55E2E27520D9756900FA6F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E2E27620D9756900FA6F40 /* Build configuration list for PBXNativeTarget "MisRecetasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E2E27720D9756900FA6F40 /* Debug */,
+				55E2E27820D9756900FA6F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E2E27920D9756900FA6F40 /* Build configuration list for PBXNativeTarget "MisRecetasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E2E27A20D9756900FA6F40 /* Debug */,
+				55E2E27B20D9756900FA6F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E2E24320D9756800FA6F40 /* Project object */;
+}
